@@ -1,0 +1,10 @@
+{
+  "info.sabpaisa.plugin.custom": {
+    "source": {
+      "type": "local",
+      "path": "C:\\Users\\bharu\\hello1\\node_modules\\info.sabpaisa.plugin.custom"
+    },
+    "is_top_level": true,
+    "variables": {}
+  }
+}

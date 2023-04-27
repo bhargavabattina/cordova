@@ -1,0 +1,27 @@
+{
+  "name": "info.sabpaisa.plugin.custom",
+  "version": "1.0.0",
+  "description": "first plugin",
+  "cordova": {
+    "id": "info.sabpaisa.plugin.custom",
+    "platforms": [
+      "android",
+      "ios"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/eywa-cp/sabpaisa-ld/sabpaisa-cordova-plugin.git"
+  },
+  "keywords": [
+    "ecosystem:cordova",
+    "cordova-android",
+    "cordova-ios"
+  ],
+  "author": "Lokesh D",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/eywa-cp/sabpaisa-ld/sabpaisa-cordova-plugin/issues"
+  },
+  "homepage": "https://gitlab.com/eywa-cp/sabpaisa-ld/sabpaisa-cordova-plugin#readme"
+}

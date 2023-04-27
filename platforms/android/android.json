@@ -1,0 +1,39 @@
+{
+  "prepare_queue": {
+    "installed": [],
+    "uninstalled": []
+  },
+  "config_munge": {
+    "files": {
+      "res/xml/config.xml": {
+        "parents": {
+          "/*": [
+            {
+              "xml": "<feature name=\"SabpaisaCordovaPlugin\"><param name=\"android-package\" value=\"info.sabpaisa.plugin.custom.SabpaisaCordovaPlugin\" /></feature>",
+              "count": 1
+            }
+          ]
+        }
+      }
+    }
+  },
+  "installed_plugins": {
+    "info.sabpaisa.plugin.custom": {
+      "PACKAGE_NAME": "com.example.hello1"
+    }
+  },
+  "dependent_plugins": {},
+  "modules": [
+    {
+      "id": "info.sabpaisa.plugin.custom.SabpaisaCordovaPlugin",
+      "file": "plugins/info.sabpaisa.plugin.custom/www/SabpaisaCordovaPlugin.js",
+      "pluginId": "info.sabpaisa.plugin.custom",
+      "clobbers": [
+        "cordova.plugins.SabpaisaCordovaPlugin"
+      ]
+    }
+  ],
+  "plugin_metadata": {
+    "info.sabpaisa.plugin.custom": "1.0.0"
+  }
+}
